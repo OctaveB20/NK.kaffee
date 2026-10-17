@@ -234,7 +234,7 @@ html { scroll-behavior: smooth; }
 /* 1 · Rot: Hero */
 .hero { background: var(--rot); color: var(--weiss); padding: 40px 0 80px; }
 .hero .inner { display: grid; grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: center; }
-.hero h1 { font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(3rem, 7.2vw, 6rem); line-height: .94; }
+.hero h1 { font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(2.4rem, 5.6vw, 4.6rem); line-height: .98; text-wrap: balance; }
 .hero p.lead { font-size: 1.2rem; line-height: 1.55; max-width: 34em; margin: 26px 0 34px; color: #FFF3F2; }
 .status { display: inline-flex; align-items: center; gap: 10px; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.4); padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; margin-bottom: 26px; }
 .status i { width: 10px; height: 10px; border-radius: 50%; background: var(--gelb); display: inline-block; }
